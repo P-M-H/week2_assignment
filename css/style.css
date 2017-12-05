@@ -1,0 +1,157 @@
+/*
+Project Name: Relaxr Public Website
+Client: Relaxr
+Author: Peter Haggett	
+Developer @GA in LDN
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 25px;
+}
+
+footer {
+	color: #f9e42e;
+	background-color: #121212;
+	text-align: center;
+}
+
+img {
+	margin: 10px;
+}
+
+button {
+	border: 5px;
+	font-weight: 700;
+}
+
+q {
+	font-weight: 300;
+	font-style: italic;
+	font-size: 30px;
+}
+
+h1 {
+	margin: 0;
+}
+
+h3 {
+	font-style: bold;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+h4 {
+	font-weight: 400;
+	font-style: bold;
+	font-size: 25px;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+li {
+	font-size: 17px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+/*  width: 1024px;*/
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 700px;
+	padding: 12% 17% 0% 17%;
+}
+
+.list_div {
+	background-color: #e2e0e0;
+	height: 400px;
+	color: #121212;
+	padding: 3% 57% 0% 3%;
+}
+
+.quote_div {
+	background: url("../images/testimonial_bg.jpg");
+	color: #ffffff;
+	height: 450px;
+	text-align: center;
+	padding: 12% 17% 0% 17%;
+}
+
+.copyright {
+	color: #ffffff;
+}
+
+.sign_up {
+	background-color: #f9e42e;
+	padding: 10px;
+	text-align: center;
+	height: 120px;
+}
+
+.button_sign_up {
+	padding: 15px 32px;
+	background-color: #033048;
+	color: #ffffff;
+	position: relative;
+	top: 25%;
+}
+
+header+h2 {
+	text-align: center;
+	color: #ffffff;
+	font-size: 40px;
+	font-weight: 300;
+}
+
+h2+button {
+	text-align: center;
+}
+

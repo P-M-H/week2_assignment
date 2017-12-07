@@ -88,6 +88,10 @@ li {
 	font-size: 17px;
 }
 
+a {
+	text-decoration: none;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -96,7 +100,7 @@ li {
 .container {
   max-width: 90%;
   margin: 0 auto;
-/*  width: 1024px; */
+  width: 1024px;
 }
 
 /******************************************
@@ -106,15 +110,27 @@ li {
 .intro {
 	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
 	background-size: cover;
+	text-align: center;
 	height: 700px;
-	padding: 12% 17% 0% 17%;
+}
+
+div > h2 {
+	color: #ffffff;
+	font-size: 45px;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+
+.logo {
+	text-align: left;
+	margin: 0 0 20% 10%;
 }
 
 .list_div {
 	background-color: #e2e0e0;
 	height: 400px;
 	color: #121212;
-	padding: 3% 57% 0% 3%;
+	padding: 1% 30% 0% 3%;
 }
 
 .quote_div {
@@ -122,7 +138,7 @@ li {
 	color: #ffffff;
 	height: 450px;
 	text-align: center;
-	padding: 12% 17% 0% 17%;
+	padding: 7% 17% 0% 17%;
 }
 
 .copyright {
@@ -144,14 +160,11 @@ li {
 	top: 25%;
 }
 
-header+h2 {
-	text-align: center;
-	color: #ffffff;
-	font-size: 40px;
-	font-weight: 300;
-}
-
-h2+button {
-	text-align: center;
+.get_it_cta {
+	background-color: #f9e42e;
+	font-color: #033048;
+	font-weight: 800;
+	font-size: 30px;
+	padding: 10px 50px;
 }
 
